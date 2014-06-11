@@ -1,0 +1,12 @@
+<link rel="import" href="../../components/polymer/polymer.html">
+
+<polymer-element name="hello-world" attributes="name" constructor="HelloWorld">
+    <template>
+        <div>Hello {{name}}, how are things?</div>
+    </template>
+    <script>
+        Polymer("hello-world", {
+            name: "Et virkeligt langt navn som er meget tydeligt"
+        });
+    </script>
+</polymer-element>
